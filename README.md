@@ -1,13 +1,11 @@
-oclif-hello-world
+@m0ksem/obj-utils
 =================
 
 oclif example Hello World CLI
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/oclif-hello-world.svg)](https://npmjs.org/package/oclif-hello-world)
-[![CircleCI](https://circleci.com/gh/oclif/hello-world/tree/main.svg?style=shield)](https://circleci.com/gh/oclif/hello-world/tree/main)
-[![Downloads/week](https://img.shields.io/npm/dw/oclif-hello-world.svg)](https://npmjs.org/package/oclif-hello-world)
-[![License](https://img.shields.io/npm/l/oclif-hello-world.svg)](https://github.com/oclif/hello-world/blob/main/package.json)
+[![Version](https://img.shields.io/npm/v/@m0ksem/obj-utils.svg)](https://npmjs.org/package/@m0ksem/obj-utils)
+[![License](https://img.shields.io/npm/l/@m0ksem/obj-utils.svg)](https://github.com/oclif/hello-world/blob/main/package.json)
 
 <!-- toc -->
 * [Usage](#usage)
@@ -16,11 +14,11 @@ oclif example Hello World CLI
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g normalize-obj
+$ npm install -g @m0ksem/normalize-obj
 $ normalize-obj COMMAND
 running command...
 $ normalize-obj (--version)
-normalize-obj/0.0.0 linux-x64 node-v16.15.0
+@m0ksem/normalize-obj/0.0.1 linux-x64 node-v16.15.0
 $ normalize-obj --help [COMMAND]
 USAGE
   $ normalize-obj COMMAND
@@ -87,7 +85,7 @@ EXAMPLES
   $ normalize-obj center ./pawn.obj
 ```
 
-_See code: [dist/commands/center.ts](https://github.com/m0ksem/normalize-obj/blob/v0.0.0/dist/commands/center.ts)_
+_See code: [dist/commands/center.ts](https://github.com/m0ksem/normalize-obj/blob/v0.0.1/dist/commands/center.ts)_
 
 ## `normalize-obj help [COMMAND]`
 
@@ -127,7 +125,7 @@ EXAMPLES
   $ normalize-obj normalize ./pawn.obj
 ```
 
-_See code: [dist/commands/normalize.ts](https://github.com/m0ksem/normalize-obj/blob/v0.0.0/dist/commands/normalize.ts)_
+_See code: [dist/commands/normalize.ts](https://github.com/m0ksem/normalize-obj/blob/v0.0.1/dist/commands/normalize.ts)_
 
 ## `normalize-obj place FILE`
 
@@ -155,5 +153,5 @@ EXAMPLES
   $ normalize-obj place ./pawn.obj
 ```
 
-_See code: [dist/commands/place.ts](https://github.com/m0ksem/normalize-obj/blob/v0.0.0/dist/commands/place.ts)_
+_See code: [dist/commands/place.ts](https://github.com/m0ksem/normalize-obj/blob/v0.0.1/dist/commands/place.ts)_
 <!-- commandsstop -->

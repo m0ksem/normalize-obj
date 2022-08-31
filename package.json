@@ -43,15 +43,9 @@
     "dirname": "normalize-obj",
     "commands": "./dist/commands",
     "plugins": [
-      "@oclif/plugin-help",
-      "@oclif/plugin-plugins"
+      "@oclif/plugin-help"
     ],
-    "topicSeparator": " ",
-    "topics": {
-      "hello": {
-        "description": "Say hello to the world and others"
-      }
-    }
+    "topicSeparator": " "
   },
   "scripts": {
     "build": "shx rm -rf dist && tsc -b",
@@ -60,14 +54,15 @@
     "posttest": "yarn lint",
     "prepack": "yarn build && oclif manifest && oclif readme",
     "test": "mocha --forbid-only \"test/**/*.test.ts\"",
-    "version": "oclif readme && git add README.md"
+    "version": "oclif readme && git add README.md",
+    "dev:install": "npm pack && npm install ./normalize-obj-*.tgz -g && rm normalize-obj-*.tgz"
   },
   "engines": {
     "node": ">=12.0.0"
   },
   "bugs": "https://github.com/m0ksem/normalize-obj/issues",
   "keywords": [
-    "oclif"
+    "oclif", "obj", "cli"
   ],
   "types": "dist/index.d.ts"
 }

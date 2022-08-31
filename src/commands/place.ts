@@ -59,9 +59,9 @@ export default class Normalize extends Command {
       const coords = line.split(' ').slice(1).map((v: string) => Number(v))
 
       if (extremes) {
-        extremes.x && (coords[0] += (extremes.x.min))
-        extremes.y && (coords[1] += (extremes.y.min))
-        extremes.z && (coords[2] += (extremes.z.min))
+        extremes.x && (coords[0] -= (extremes.x.min))
+        extremes.y && (coords[1] -= (extremes.y.min))
+        extremes.z && (coords[2] -= (extremes.z.min))
       }
 
       return `v ${coords.join(' ')}`

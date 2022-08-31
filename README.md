@@ -5,7 +5,7 @@ oclif example Hello World CLI
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/@m0ksem/obj-utils.svg)](https://npmjs.org/package/@m0ksem/obj-utils)
-[![License](https://img.shields.io/npm/l/@m0ksem/obj-utils.svg)](https://github.com/oclif/hello-world/blob/main/package.json)
+[![License](https://img.shields.io/npm/l/@m0ksem/obj-utils.svg)](https://github.com/@m0ksem/obj-utils/blob/main/package.json)
 
 <!-- toc -->
 * [Usage](#usage)
@@ -14,11 +14,11 @@ oclif example Hello World CLI
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g @m0ksem/normalize-obj
+$ npm install -g @m0ksem/obj-utils
 $ normalize-obj COMMAND
 running command...
 $ normalize-obj (--version)
-@m0ksem/normalize-obj/0.0.1 linux-x64 node-v16.15.0
+@m0ksem/obj-utils/0.0.1 linux-x64 node-v16.15.0
 $ normalize-obj --help [COMMAND]
 USAGE
   $ normalize-obj COMMAND

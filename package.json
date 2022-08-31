@@ -1,5 +1,5 @@
 {
-  "name": "@m0ksem/normalize-obj",
+  "name": "@m0ksem/obj-utils",
   "version": "0.0.1",
   "description": "Normalize .obj file",
   "author": "m0ksem @m0ksem",
